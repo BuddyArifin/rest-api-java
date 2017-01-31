@@ -1,0 +1,103 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Product",
+    "description": "Github Dubizzle Profiles",
+    "type": "object",
+    "properties": {
+        "login": {
+            "description": "The profile name",
+            "type": "string"
+        }, 
+        "id": {
+            "description": "The id profile",
+            "type": "integer"
+        },        
+        "avatar_url": {
+            "description": "Url Avatar",
+            "type": "string"
+        },        
+        "gravatar_id": {
+            "description": "Url id Avatar",
+            "type": "string"
+        },        
+        "url": {
+            "description": "Url profiles",
+            "type": "string"
+        },        
+        "html_url": {
+            "description": "Url profiles",
+            "type": "string"
+        },        
+        "followers_url": {
+            "description": "Followers Url profiles",
+            "type": "string"
+        },        
+        "following_url": {
+            "description": "Followers Url profiles",
+            "type": "string"
+        },        
+        "gists_url": {
+            "type": "string"
+        },        
+        "starred_url": {
+            "type": "string"
+        },        
+        "subscriptions_url": {
+            "type": "string"
+        },
+        "organizations_url": {
+            "type": "string"
+        },
+        "repos_url": {
+            "type": "string"
+        },
+        "events_url": {
+            "type": "string"
+        },
+        "received_events_url": {
+            "type": "string"
+        },
+        "type": {
+            "type": "string"
+        },
+        "site_admin": {
+            "type": "boolean"
+        },
+        "name": {
+            "type": "string"
+        },
+        "company": {
+            "type": "null"
+        },
+        "blog": {
+            "type": "string"
+        },        
+        "location": {
+            "type": "string"
+        },   
+        "email": {
+            "type": "null"
+        },
+        "hireable": {
+            "type": "null"
+        },
+        "public_repos": {
+            "type": "integer"
+        },  
+        "public_gists": {
+            "type": "integer"
+        },
+        "followers": {
+            "type": "integer"
+        },
+        "following": {
+            "type": "integer"
+        }, 
+        "created_at": {
+            "type": "string"
+        },
+        "updated_at": {
+            "type": "string"
+        }
+    }
+}

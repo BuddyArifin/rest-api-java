@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="apiTests.GithubProfileTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-01-30T10:42:49" hostname="buddys-mbp" time="0.704">
+  <properties/>
+  <testcase name="test_JsonResponse" classname="apiTests.GithubProfileTests" time="0.078"/>
+  <testcase name="test_JsonResponse_Scheme" classname="apiTests.GithubProfileTests" time="0.322"/>
+  <testcase name="test_ResponseKeys_ShouldwithValueBoolean" classname="apiTests.GithubProfileTests" time="0.23"/>
+  <testcase name="test_ResponseKeys_ShouldwithValueInt" classname="apiTests.GithubProfileTests" time="0.044"/>
+  <testcase name="test_ResponseKeys_ShouldwithValueNull" classname="apiTests.GithubProfileTests" time="0.027"/>
+  <testcase name="test_ResponseNumberofEntry_Should30" classname="apiTests.GithubProfileTests" time="0.002"/>
+  <testcase name="test_responseCode_shouldbe200" classname="apiTests.GithubProfileTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

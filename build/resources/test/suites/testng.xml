@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="JSON GITHUB RESPONSE" verbose="3" parallel="classes" thread-count="2">
+
+    <!--<listeners>-->
+    <!--<listener class-name="listeners.RetryListeners" />-->
+    <!--</listeners>-->
+
+    <test name="JSON API Test" preserve-order="false">
+        <classes>
+            <class name="apiTests.GithubProfileTests"/>
+            <class name="apiTests.GithubRepoListTest"/>
+        </classes>
+    </test>
+</suite>
